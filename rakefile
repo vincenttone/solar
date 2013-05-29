@@ -1,0 +1,9 @@
+#!/usr/bin/env rake
+# -*- coding: utf-8 -*-
+task :default=>[:pdf]
+
+desc "生成pdf版简历"
+task :pdf do
+  dir = File.realpath(File.dirname(__FILE__))
+  require dir+'/scripts/take-a-pdf.rb'
+end

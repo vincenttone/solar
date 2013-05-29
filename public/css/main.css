@@ -1,0 +1,119 @@
+body{
+	text-align: center;
+	background: black;
+}
+#bg-img{
+	background: url(/images/bg.JPG);	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content{
+	margin: auto;
+	padding: auto;
+	width: 960px;
+}
+.resume{
+	text-align: left;
+	line-height: 1.5em;
+}
+.resume blockquote{
+	border-left: 5px solid #003333;
+	padding-left: 1em;
+	color: #003333;
+}
+h1{
+	color: #396;
+	font-size: 32px;
+}
+h2{
+	color: #396;
+	font-size: 25px;
+}
+h3{
+	color: #396;
+	font-size: 21px;
+}
+ol li, ul li{
+	color: #ddd;;
+}
+li a{
+	color: #fffff0;
+}
+li a:hover{
+	color: #003333;
+}
+li a:visited{
+	color: gray;
+}
+blockquote p{
+	font-size: 18px;
+	font-style: italic;
+}
+p{
+	font-size: 20px;
+	color: #ccccdd;
+}
+.home{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+ul#code-taker{
+	width: 360px;
+	margin: auto;
+	padding: auto;
+	list-style: none;
+	padding: 50px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px #333;
+}
+#code-taker li{
+	text-align: center;
+	margin: 10px;
+}
+#code-taker li label{
+	font-size: 26px;
+	display: none;
+}
+#code-taker li #code{
+	border: 3px #333 solid;
+	color: black;
+	font-weight: bold;
+	border-radius: 6px;
+	font-size: 21px;
+	height: 36px;
+	width: 210px;
+	outline: none;
+}
+#code-taker li #code:focus{
+	border: 3px #1982d1 solid;
+	color: #1982d1;
+}
+#code-taker li a#submit-btn{
+	margin: auto;
+	padding: auto;
+	cursor: pointer;
+	display: block;
+	width: 100px;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	background-color: #333;
+	border-radius: 3px;
+	line-height: 36px;
+	box-shadow: none;
+	border: none;
+	display: block;
+}
+#code-taker li a#submit-btn:hover{
+	background-color: #1982d1;
+}
+.msg{
+	color: red;
+}
+.pdf-link{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}

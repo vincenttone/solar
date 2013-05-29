@@ -1,0 +1,16 @@
+.home
+  %form#code-form{method:'post', action: '/auth'}
+    %ul#code-taker
+      %li
+        %label{for: 'code'} 提取码：
+      %li
+        %input#code{type: 'password', name: 'code', placeholder: '请输入提取码'}
+      %li
+        %a#submit-btn{href:'#', onclick:'document.getElementById("code-form").submit()'} 验证
+      %li.msg
+        -  unless session[:msg].nil?
+          = session[:msg]
+          - session[:msg] = nil
+#bg-img
+%script{type:"text/javascript", src: "/js/jquery.min.js"}
+%script{type:"text/javascript", src: "/js/index.js"}

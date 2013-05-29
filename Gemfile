@@ -1,0 +1,7 @@
+source 'http://rubygems.org'
+gem 'sinatra'
+gem 'haml'
+gem 'rdiscount'
+gem 'thin', '1.5.0'
+gem 'pdfkit'
+gem 'wkhtmltopdf-binary'
